@@ -8,6 +8,7 @@ This example is to achieve the looks of standard environment of most windows for
 
 
 #Screenshots
+
 ![MainGui](/Screenshots/main.png "Main Gui")
 
 ![CrawlDialog](/Screenshots/crawl.png "Crawl Dialog")
