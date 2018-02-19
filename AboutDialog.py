@@ -16,7 +16,7 @@ class AboutDialog(simpledialog.Dialog):
         label_logo.image = logo  # keep a reference!
         label_logo.pack(side="left")
         explanation = """A simple Python GUI design using most widgets of Tkinter module.
-This example is to achieve the looks of standard environment of most windows\n  form and alsowith implementation of basic CRUD function of SQLite database.\n\nmarianzjr02@gmail.com\nMarian'O de Gracia Jr."""
+This example is to achieve the looks of standard environment of most windows\n form and also with implementation of basic CRUD function of SQLite database.\n\nmarianzjr02@gmail.com\nMarian'O de Gracia Jr."""
         label_text = Label(self.frame, justify=tk.LEFT,padx=10, text=explanation).pack(side="right")
        
         #label_text = Label(self.frame, justify=tk.LEFT,padx=10, text="marianzjr02@gmail.com").pack(side="right")

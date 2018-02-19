@@ -66,7 +66,7 @@ class Settings(object):
         self.userhome = os.path.expanduser('~')
         self.desktop = self.userhome + ds + 'Desktop' + ds + 'wfm' + ds
 
-         dict = {
+        dict = {
             'email_username': 'tarsier.green@gmail.com',
             'email_password': 'idontknowwhatisthepasswordOfthIsemailaddress,CanYouGuess?',
             'username': 'HYPER-CMBB',
