@@ -9,7 +9,7 @@ class ServerDialog(simpledialog.Dialog):
     def body(self, master):
         frame = tk.Frame(master, width=500)
         self.resizable(width=False, height=False)
-      
+        self.iconbitmap('tarsier.ico')      
 
         self.settings = Settings()
         self.arp = ArpTable()

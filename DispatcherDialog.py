@@ -13,7 +13,8 @@ class DispatcherDialog(simpledialog.Dialog):
         self.parent = master
         self.frame = tk.Frame(self.parent)
         self.resizable(width=False, height=False)
-        
+        self.iconbitmap('tarsier.ico')
+		
         self.storage = StorageDb('wfm.sqlite')
         self.settings = Settings()
         self.helper = Helper()

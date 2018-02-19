@@ -216,6 +216,7 @@ class CalendarDialog(simpledialog.Dialog):
     def body(self, master):
         self.calendar = Calendar(master)
         self.resizable(width=False, height=False)
+        self.iconbitmap('tarsier.ico')
         self.calendar.pack()
 
     def apply(self):

@@ -21,6 +21,7 @@ class ConfigCrawlDialog(simpledialog.Dialog):
         self.parent = master
         self.frame = tk.Frame(self.parent, width=500)
         self.resizable(width=False, height=False)
+        self.iconbitmap('tarsier.ico')
         
         self.storage = StorageDb('wfm.sqlite')
         self.appt_helper = AppointmentHelper()

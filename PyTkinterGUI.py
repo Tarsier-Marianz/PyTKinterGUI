@@ -17,7 +17,7 @@ from threading import Thread
 from Settings import Settings
 from StorageDb import StorageDb
 from Helper import Helper
-#from ServerDialog import ServerDialog
+from ServerDialog import ServerDialog
 from RecipientDialog import RecipientDialog
 from OptionsDialog import OptionsDialog
 from ConfigCrawlDialog import ConfigCrawlDialog
@@ -34,9 +34,11 @@ SETTINGS = 'settings'
 ERRORS = 'errors'
 AUTH = 'auth'
 TABLE_ALLDATA = 'all_data'
+
+#libraries for crawling WFM data
+#it helps some function of IEC.py
 import pythoncom
 from win32com.client import Dispatch
-import time
 pythoncom.CoInitialize()
 
 

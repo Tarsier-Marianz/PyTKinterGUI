@@ -15,6 +15,7 @@ class OptionsDialog(simpledialog.Dialog):
         self.parent = master
         self.frame = tk.Frame(self.parent, width=400)
         self.resizable(width=False, height=False)
+        self.iconbitmap('tarsier.ico')
 
         self.helper = Helper()
         self.settings = Settings()

@@ -12,6 +12,7 @@ class RecipientDialog(simpledialog.Dialog):
     def body(self, master):
         self.frame = tk.Frame(master, width=200)
         self.resizable(width=False, height=False)
+        self.iconbitmap('tarsier.ico')
         self.parent = master
         
         self.strg = StorageDb('wfm.sqlite')

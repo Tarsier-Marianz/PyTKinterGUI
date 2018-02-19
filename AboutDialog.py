@@ -10,6 +10,7 @@ class AboutDialog(simpledialog.Dialog):
     def body(self, master):
         self.frame = tk.Frame(master, width=50, height=80)
         self.resizable(width=False, height=False)
+        self.iconbitmap('tarsier.ico')
 
         logo = PhotoImage(file="images/tarsier.png")
         label_logo = Label(self.frame, image=logo)
