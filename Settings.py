@@ -54,6 +54,7 @@ class Settings(object):
         self.strg.CreateTable('errors', errors)
         self.strg.CreateTable('recipients', recipients)
         self.strg.CreateTable('workspaces', workspaces)
+        self.strg.CreateWFMTable('all_data')
 
         appointment_tables = ['dispatchers','companies','activities','status']
         for a in appointment_tables:
