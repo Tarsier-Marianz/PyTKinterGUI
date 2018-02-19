@@ -15,7 +15,8 @@ This example is to achieve the looks of standard environment of most windows for
 ![OptionDialog](/Screenshots/option.png "Option Dialog")
 
 
-##Credits
+###Credits
+
 **For Tkinter Tutorials**
 
 * [Tutorials Point](https://www.tutorialspoint.com/python/python_gui_programming.htm)
