@@ -53,7 +53,7 @@ class Application(Frame):
         self.parent = parent
         
         self.parent.protocol("WM_DELETE_WINDOW", self.onExit)
-        self.parent.bind("<Destroy>", self.onExit)
+        self.parent.bind("<Destroy>", lambda e: self.onExit)
 
         self.initMenubar()
         self.initToolbar()
