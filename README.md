@@ -9,11 +9,11 @@ This example is to achieve the looks of standard environment of most windows for
 
 ## Screenshots
 
-![MainGui](/screenshots/main.png?raw=true  "Main Gui")
+![MainGui](/screenshot/main.png?raw=true  "Main Gui")
 
-![CrawlDialog](/screenshots/crawl.png?raw=true  "Crawl Dialog")
+![CrawlDialog](/screenshot/crawl.png?raw=true  "Crawl Dialog")
 
-![OptionDialog](/screenshots/option.png?raw=true  "Option Dialog")
+![OptionDialog](/screenshot/option.png?raw=true  "Option Dialog")
 
 
 ## Credits
