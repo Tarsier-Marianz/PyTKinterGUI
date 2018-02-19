@@ -7,7 +7,7 @@ This example is to achieve the looks of standard environment of most windows for
 >Complete tutorials of **Tkinter Widgets** can be found here [Tutorials Point](https://www.tutorialspoint.com/python/python_gui_programming.htm)
 
 
-###Screenshots
+#Screenshots
 ![MainGui](/Screenshots/main.png "Main Gui")
 
 ![CrawlDialog](/Screenshots/crawl.png "Crawl Dialog")
@@ -15,7 +15,7 @@ This example is to achieve the looks of standard environment of most windows for
 ![OptionDialog](/Screenshots/option.png "Option Dialog")
 
 
-###Credits
+#Credits
 
 **For Tkinter Tutorials**
 
